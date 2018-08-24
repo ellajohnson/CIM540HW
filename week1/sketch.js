@@ -12,5 +12,5 @@ function draw() {
   //left eye
   ellipse(260, 75, 20, 20);
   //right eye
-  ellipse(410, 120, 20, 20);
+  ellipse(350, 77, 20, 20);
 }
