@@ -12,5 +12,5 @@ function draw() {
   rect(x, y, s, s);
   rect(x + s + d, y, 2 * s, 2 * s);
   rect((x + s +d) + (2 * s) +d, y, 3 * s, 3 * s);
-
+  
 }
