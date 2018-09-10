@@ -2,6 +2,7 @@ var x = 150;
 var y = 50;
 var d = 50;
 var s = 30;
+
 function setup() {
   createCanvas(800, 400);
   background(204);
