@@ -9,7 +9,6 @@ function setup() {
 function draw() {
   background(0);
   fill(255);
-  stroke(255);
   if(keyIsPressed) {
     if(keyCode == LEFT_ARROW) {
       x -= 5;
@@ -24,9 +23,11 @@ function draw() {
       y+= 5;
     }
     else if(key == "d") {
+      stroke(255, 255, 0);
       line(x + 10, y, 800, y);
     }
   }
+    noStroke();
     rect(x, y, 10, 10);
 
 }
